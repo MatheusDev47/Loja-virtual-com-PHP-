@@ -1,0 +1,74 @@
+/* Variáveis */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --background-color: #FFF;
+    --color-text-header: #101012;
+    --color-text-header-hover: #5d5d66; 
+    --font-logo: 'Beau Rivage', cursive;
+}
+
+a.logo {
+    font-family: var(--font-logo);
+    font-size: 2rem;
+    color: var(--color-text-header);
+    transition: .5s;
+}
+
+a.logo:hover {
+    color: var(--color-text-header-hover);
+}
+
+.links li a{
+    font-weight: 600;
+    color: var(--color-text-header);
+}
+
+.links li a:hover {
+    color: var(--color-text-header-hover);
+}
+
+.links li a:focus {
+    color: var(--color-text-header);
+}
+
+.icons-header button {
+    position: relative;
+    outline: 0;
+    border: 0;
+    background-color: var(--background-color);
+}
+
+.icons-header button i {
+    outline: 0;
+    font-size: 2rem;
+}
+
+ul.menu-dropdown{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    z-index: 1000;
+    border: 0.1px solid #212529;
+    text-align: left;
+    min-width: 160px;
+}
+
+ul.menu-dropdown li {
+    padding: 0;
+    font-size: .9rem;
+}
+
+form > input.search-field {
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+    color: #8d868d;
+    padding: 10px;
+}
+
+
+
