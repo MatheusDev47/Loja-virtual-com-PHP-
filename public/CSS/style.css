@@ -47,6 +47,7 @@ a.logo:hover {
 }
 
 ul.menu-dropdown{
+    padding: 0;
     display: none;
     position: absolute;
     top: 50%;
@@ -59,7 +60,11 @@ ul.menu-dropdown{
 
 ul.menu-dropdown li {
     padding: 0;
-    font-size: .9rem;
+    font-size: .8rem;
+}
+
+ul.menu-dropdown i {
+    font-size: .8rem;
 }
 
 form > input.search-field {
